@@ -694,34 +694,6 @@ class _SignInWidgetState extends State<SignInWidget> {
                                     borderRadius: 12.0,
                                     borderWidth: 1.0,
                                     buttonSize: 44.0,
-                                    icon: FaIcon(
-                                      FontAwesomeIcons.apple,
-                                      color: FlutterFlowTheme.of(context)
-                                          .primaryText,
-                                      size: 16.0,
-                                    ),
-                                    onPressed: () async {
-                                      GoRouter.of(context).prepareAuthEvent();
-                                      final user = await authManager
-                                          .signInWithApple(context);
-                                      if (user == null) {
-                                        return;
-                                      }
-
-                                      context.goNamedAuth(
-                                          HomePageWidget.routeName,
-                                          context.mounted);
-                                    },
-                                  ),
-                                ),
-                                Padding(
-                                  padding: EdgeInsets.all(8.0),
-                                  child: FlutterFlowIconButton(
-                                    borderColor:
-                                        FlutterFlowTheme.of(context).lineColor,
-                                    borderRadius: 12.0,
-                                    borderWidth: 1.0,
-                                    buttonSize: 44.0,
                                     icon: Icon(
                                       Icons.phone_rounded,
                                       color: FlutterFlowTheme.of(context)
