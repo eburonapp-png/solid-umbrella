@@ -79,7 +79,7 @@ class _PhoneVerifyWidgetState extends State<PhoneVerifyWidget> {
                 title: Text(
                   'Confirm your Code',
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        font: GoogleFonts.outfit(
+                        font: GoogleFonts.sora(
                           fontWeight: FlutterFlowTheme.of(context)
                               .headlineSmall
                               .fontWeight,
@@ -153,7 +153,7 @@ class _PhoneVerifyWidgetState extends State<PhoneVerifyWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    font: GoogleFonts.outfit(
+                                    font: GoogleFonts.sora(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .fontWeight,
@@ -183,7 +183,7 @@ class _PhoneVerifyWidgetState extends State<PhoneVerifyWidget> {
                           textAlign: TextAlign.start,
                           style:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    font: GoogleFonts.plusJakartaSans(
+                                    font: GoogleFonts.inter(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .fontWeight,
@@ -211,7 +211,7 @@ class _PhoneVerifyWidgetState extends State<PhoneVerifyWidget> {
                         length: 6,
                         textStyle:
                             FlutterFlowTheme.of(context).titleSmall.override(
-                                  font: GoogleFonts.plusJakartaSans(
+                                  font: GoogleFonts.inter(
                                     fontWeight: FlutterFlowTheme.of(context)
                                         .titleSmall
                                         .fontWeight,
@@ -304,7 +304,7 @@ class _PhoneVerifyWidgetState extends State<PhoneVerifyWidget> {
                           textStyle: FlutterFlowTheme.of(context)
                               .titleSmall
                               .override(
-                                font: GoogleFonts.plusJakartaSans(
+                                font: GoogleFonts.inter(
                                   fontWeight: FlutterFlowTheme.of(context)
                                       .titleSmall
                                       .fontWeight,

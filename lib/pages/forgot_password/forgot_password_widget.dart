@@ -105,7 +105,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
               title: Text(
                 'Forgot Password',
                 style: FlutterFlowTheme.of(context).headlineSmall.override(
-                      font: GoogleFonts.outfit(
+                      font: GoogleFonts.sora(
                         fontWeight: FlutterFlowTheme.of(context)
                             .headlineSmall
                             .fontWeight,
@@ -179,7 +179,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
                               style: FlutterFlowTheme.of(context)
                                   .headlineSmall
                                   .override(
-                                    font: GoogleFonts.outfit(
+                                    font: GoogleFonts.sora(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .fontWeight,
@@ -211,7 +211,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
                               style: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
-                                    font: GoogleFonts.plusJakartaSans(
+                                    font: GoogleFonts.inter(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .fontWeight,
@@ -245,7 +245,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
                           labelText: 'Your email',
                           labelStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    font: GoogleFonts.plusJakartaSans(
+                                    font: GoogleFonts.inter(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .fontWeight,
@@ -264,7 +264,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
                           hintText: 'Enter your email to recieve a linke...',
                           hintStyle:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    font: GoogleFonts.plusJakartaSans(
+                                    font: GoogleFonts.inter(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .fontWeight,
@@ -315,7 +315,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
                               20.0, 24.0, 20.0, 24.0),
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              font: GoogleFonts.plusJakartaSans(
+                              font: GoogleFonts.inter(
                                 fontWeight: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .fontWeight,
@@ -366,7 +366,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget>
                           color: FlutterFlowTheme.of(context).primary,
                           textStyle:
                               FlutterFlowTheme.of(context).titleMedium.override(
-                                    font: GoogleFonts.plusJakartaSans(
+                                    font: GoogleFonts.inter(
                                       fontWeight: FlutterFlowTheme.of(context)
                                           .titleMedium
                                           .fontWeight,

@@ -88,7 +88,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                 title: Text(
                   'My Profile',
                   style: FlutterFlowTheme.of(context).headlineMedium.override(
-                        font: GoogleFonts.outfit(
+                        font: GoogleFonts.sora(
                           fontWeight: FlutterFlowTheme.of(context)
                               .headlineMedium
                               .fontWeight,
@@ -206,7 +206,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
-                                        font: GoogleFonts.outfit(
+                                        font: GoogleFonts.sora(
                                           fontWeight:
                                               FlutterFlowTheme.of(context)
                                                   .headlineSmall
@@ -237,7 +237,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                                   style: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
-                                        font: GoogleFonts.plusJakartaSans(
+                                        font: GoogleFonts.inter(
                                           fontWeight:
                                               FlutterFlowTheme.of(context)
                                                   .labelMedium
@@ -272,7 +272,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                 child: Text(
                   'Account',
                   style: FlutterFlowTheme.of(context).labelMedium.override(
-                        font: GoogleFonts.plusJakartaSans(
+                        font: GoogleFonts.inter(
                           fontWeight: FlutterFlowTheme.of(context)
                               .labelMedium
                               .fontWeight,
@@ -326,7 +326,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
-                                  font: GoogleFonts.plusJakartaSans(
+                                  font: GoogleFonts.inter(
                                     fontWeight: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .fontWeight,
@@ -397,7 +397,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
-                                  font: GoogleFonts.plusJakartaSans(
+                                  font: GoogleFonts.inter(
                                     fontWeight: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .fontWeight,
@@ -435,7 +435,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                 child: Text(
                   'General',
                   style: FlutterFlowTheme.of(context).labelMedium.override(
-                        font: GoogleFonts.plusJakartaSans(
+                        font: GoogleFonts.inter(
                           fontWeight: FlutterFlowTheme.of(context)
                               .labelMedium
                               .fontWeight,
@@ -489,7 +489,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
-                                  font: GoogleFonts.plusJakartaSans(
+                                  font: GoogleFonts.inter(
                                     fontWeight: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .fontWeight,
@@ -560,7 +560,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
-                                  font: GoogleFonts.plusJakartaSans(
+                                  font: GoogleFonts.inter(
                                     fontWeight: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .fontWeight,
@@ -631,7 +631,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
-                                  font: GoogleFonts.plusJakartaSans(
+                                  font: GoogleFonts.inter(
                                     fontWeight: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .fontWeight,
@@ -737,7 +737,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            font: GoogleFonts.plusJakartaSans(
+                                            font: GoogleFonts.inter(
                                               fontWeight:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -826,7 +826,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
-                                            font: GoogleFonts.plusJakartaSans(
+                                            font: GoogleFonts.inter(
                                               fontWeight:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
