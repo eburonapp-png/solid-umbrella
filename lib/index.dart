@@ -7,5 +7,5 @@ export '/pages/phone_sign_in/phone_sign_in_widget.dart' show PhoneSignInWidget;
 export '/pages/forgot_password/forgot_password_widget.dart'
     show ForgotPasswordWidget;
 export '/pages/phone_verify/phone_verify_widget.dart' show PhoneVerifyWidget;
-export '/pages/home_page/home_page_widget.dart' show HomePageWidget;
 export '/pages/profile_page/profile_page_widget.dart' show ProfilePageWidget;
+export '/pages/home_page/home_page_widget.dart' show HomePageWidget;
