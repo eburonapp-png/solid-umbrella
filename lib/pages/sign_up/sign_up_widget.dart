@@ -633,6 +633,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                     },
                                     text: 'Continue with Google',
                                     options: FFButtonOptions(
+                                      width: 200.0,
                                       height: 48.0,
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           44.0, 0.0, 44.0, 0.0),
@@ -792,6 +793,7 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                     },
                                     text: 'Continue as Guest',
                                     options: FFButtonOptions(
+                                      width: 200.0,
                                       height: 48.0,
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           44.0, 0.0, 44.0, 0.0),

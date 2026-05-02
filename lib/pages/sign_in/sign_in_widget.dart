@@ -1,12 +1,10 @@
 import '/auth/firebase_auth/auth_util.dart';
-import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/index.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'sign_in_model.dart';
 export 'sign_in_model.dart';
@@ -654,59 +652,110 @@ class _SignInWidgetState extends State<SignInWidget> {
                                 ],
                               ),
                             ),
-                            Row(
-                              mainAxisSize: MainAxisSize.max,
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Padding(
-                                  padding: EdgeInsets.all(8.0),
-                                  child: FlutterFlowIconButton(
-                                    borderColor:
-                                        FlutterFlowTheme.of(context).lineColor,
-                                    borderRadius: 12.0,
-                                    borderWidth: 1.0,
-                                    buttonSize: 44.0,
-                                    icon: FaIcon(
-                                      FontAwesomeIcons.google,
-                                      color: FlutterFlowTheme.of(context)
-                                          .primaryText,
-                                      size: 16.0,
-                                    ),
-                                    onPressed: () async {
-                                      GoRouter.of(context).prepareAuthEvent();
-                                      final user = await authManager
-                                          .signInWithGoogle(context);
-                                      if (user == null) {
-                                        return;
-                                      }
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 16.0, 0.0, 0.0),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Container(
+                                        width: 266.9,
+                                        height: 46.9,
+                                        decoration: BoxDecoration(
+                                          color: FlutterFlowTheme.of(context)
+                                              .secondaryBackground,
+                                          borderRadius:
+                                              BorderRadius.circular(6.0),
+                                        ),
+                                        child: FFButtonWidget(
+                                          onPressed: () async {
+                                            GoRouter.of(context)
+                                                .prepareAuthEvent();
+                                            final user = await authManager
+                                                .signInWithGoogle(context);
+                                            if (user == null) {
+                                              return;
+                                            }
 
-                                      context.goNamedAuth(
-                                          HomePageWidget.routeName,
-                                          context.mounted);
-                                    },
+                                            context.pushNamedAuth(
+                                                HomePageWidget.routeName,
+                                                context.mounted);
+                                          },
+                                          text: 'Signin with Google',
+                                          options: FFButtonOptions(
+                                            width: 200.0,
+                                            height: 48.0,
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    44.0, 0.0, 44.0, 0.0),
+                                            iconPadding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 0.0, 0.0),
+                                            color: FlutterFlowTheme.of(context)
+                                                .secondaryBackground,
+                                            textStyle:
+                                                FlutterFlowTheme.of(context)
+                                                    .titleLarge
+                                                    .override(
+                                                      font: GoogleFonts.sora(
+                                                        fontWeight:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .titleLarge
+                                                                .fontWeight,
+                                                        fontStyle:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .titleLarge
+                                                                .fontStyle,
+                                                      ),
+                                                      fontSize: 18.0,
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .titleLarge
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .titleLarge
+                                                              .fontStyle,
+                                                    ),
+                                            elevation: 0.0,
+                                            borderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .alternate,
+                                              width: 2.0,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(12.0),
+                                            hoverColor:
+                                                FlutterFlowTheme.of(context)
+                                                    .alternate,
+                                            hoverBorderSide: BorderSide(
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .alternate,
+                                              width: 2.0,
+                                            ),
+                                            hoverTextColor:
+                                                FlutterFlowTheme.of(context)
+                                                    .primaryText,
+                                            hoverElevation: 3.0,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
                                   ),
-                                ),
-                                Padding(
-                                  padding: EdgeInsets.all(8.0),
-                                  child: FlutterFlowIconButton(
-                                    borderColor:
-                                        FlutterFlowTheme.of(context).lineColor,
-                                    borderRadius: 12.0,
-                                    borderWidth: 1.0,
-                                    buttonSize: 44.0,
-                                    icon: Icon(
-                                      Icons.phone_rounded,
-                                      color: FlutterFlowTheme.of(context)
-                                          .primaryText,
-                                      size: 20.0,
-                                    ),
-                                    onPressed: () async {
-                                      context.pushNamed(
-                                          PhoneSignInWidget.routeName);
-                                    },
-                                  ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
