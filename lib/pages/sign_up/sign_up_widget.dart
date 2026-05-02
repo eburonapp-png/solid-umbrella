@@ -94,11 +94,15 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                 children: [
                                   if (Theme.of(context).brightness ==
                                       Brightness.light)
-                                    Image.asset(
-                                      'assets/images/noCode_UI_onLight@3x.png',
-                                      width: 150.0,
-                                      height: 40.0,
-                                      fit: BoxFit.fitWidth,
+                                    ClipRRect(
+                                      borderRadius:
+                                          BorderRadius.circular(100.0),
+                                      child: Image.asset(
+                                        'assets/images/5e3b644d-b600-4d14-9a95-8fda458c3347.png',
+                                        width: 100.0,
+                                        height: 100.0,
+                                        fit: BoxFit.contain,
+                                      ),
                                     ),
                                   if (Theme.of(context).brightness ==
                                       Brightness.dark)
@@ -627,8 +631,17 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                       }
 
                                       context.pushNamedAuth(
-                                          CreateProfileWidget.routeName,
-                                          context.mounted);
+                                        CreateProfileWidget.routeName,
+                                        context.mounted,
+                                        extra: <String, dynamic>{
+                                          '__transition_info__': TransitionInfo(
+                                            hasTransition: true,
+                                            transitionType:
+                                                PageTransitionType.fade,
+                                            duration: Duration(milliseconds: 0),
+                                          ),
+                                        },
+                                      );
                                     },
                                   ),
                                 ),
@@ -677,9 +690,6 @@ class _SignUpWidgetState extends State<SignUpWidget> {
                                     onPressed: () async {
                                       context.pushNamed(
                                           PhoneSignInWidget.routeName);
-
-                                      context.pushNamed(
-                                          CreateProfileWidget.routeName);
                                     },
                                   ),
                                 ),
